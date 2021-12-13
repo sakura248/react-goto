@@ -1,6 +1,6 @@
-# Interview Questions for React Developers
+# Answer : Interview Questions for React Developers
 
-### What is React JS? What are the advantages compared to other JavaScript frameworks?
+<!-- ### What is React JS? What are the advantages compared to other JavaScript frameworks?
 React is an efficient, declarative, and flexible open-source front-end JavaScript library for building simple, fast and scalable front-ends. It is developed by Facebook in 2011.
 
 - ##### Use of Virtual DOM to improve efficiency
@@ -22,21 +22,21 @@ Short Answer to React features:
 - Even though it was open-sourced only in 2015, it has one of the largest communities supporting it.
 - It follows uni-directional data flow or data binding
 ```
----
-### What is the virtual DOM? How does react use the virtual DOM to render the UI?
+--- -->
+<!-- ### What is the virtual DOM? How does react use the virtual DOM to render the UI?
 Virtual DOM is a concept where a virtual representation of the real DOM is kept inside the memory and is synced with the real DOM by a library such as ReactDOM.
 
 This Virtual DOM works in three simple steps:
 
 1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.
-2. Then the difference between the previous DOM representation and the new one is calculated.
-3. Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
+1. Then the difference between the previous DOM representation and the new one is calculated.
+1. Once the calculations are done, the real DOM will be updated with only the things that have actually changed. -->
 
-<center>
+<!-- <center>
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--rorQuVGd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/d5amy5j4ly0ruq1inyet.png" alt="VirtualDOM" width="80%"/>
-</center>
+</center> -->
 
-### What are React components? What is a state in React?
+<!-- ### What are React components? What is a state in React?
 When it comes to using React, everything boils down to components. In simple words, “Components are the construction blocks of a React application’s UI. These components split up the entire UI into several small, independent, and reusable pieces. Then it renders each of these components independent of each other without affecting the rest of the UI.”
 
 Then again, “States are the heart of React components. States are the source of data and must be kept as simple as possible. Basically, states are the objects which determine components rendering and behavior. They are mutable unlike the props and create dynamic and interactive components. They are accessed via `this.state()`.”
@@ -59,14 +59,14 @@ It makes it possible to store a reference to a particular React element or compo
 ### When you need refs?
 - Managing focus, text selection, or media playback.
 - Integrating with third-party DOM libraries.
-- Triggering imperative animations.
+- Triggering imperative animations. -->
 
 ### What are the different phases of React component’s lifecycle?
 There are three different phases of React component’s lifecycle:
 
-1st: Just after the component get mounted
-2nd when the component get updated
-3rd: Just before the component get unmounted
+1.  Just after the component get mounted
+1.  when the component get updated
+1.  Just before the component get unmounted
 
 ### What is the difference between a Container and a Component?
 > There is a design pattern that tries to divide one component into 'Presentational Component' and 'Container Component'.
@@ -75,11 +75,10 @@ There are three different phases of React component’s lifecycle:
 > Thus, we can say that container is one kind of component.
 
 ---
+
+<!-- <center>🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼</center>
 ---
-<center>🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼</center>
----
----
----
+
 # Interview Challenges for React Developers
 
 ### A) Add and Delete Items From the List 
@@ -108,7 +107,7 @@ For this challenge, you have three components, each containing a button that inc
 
 ### D) Implementing and using Redux 
 In this coding challenge, the interviewer wants to check how you implement and use Redux. So, you might be provided with a basic React application with two components - one that will contain the buttons to increment and decrement the global state and another to display the value.
-
+ -->
 ### E) **Share data among components without using props and Redux
 In this coding challenge, the interview might give you a React application with multiple nested components like the following.
 
