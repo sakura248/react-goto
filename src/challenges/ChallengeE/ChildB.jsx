@@ -1,18 +1,17 @@
-import React, {createContext, useContext} from 'react'
+import React, {
+    // createContext, useContext
+} from 'react'
 import GrandChildC from './GrandChildC'
 import GrandChildD from './GrandChildD'
-// import {parentContent} from './ChallengeE'
 
 const ChildB = () => {
     
-    // const parentText = useContext(parentContent)
     return (
-        <>
-            <p>This is Component B</p>
-            {/* {parentText} */}
+        <div style={{backgroundColor: '#f77f00', color: '#fff', height: '90%', width: '90%', margin: '0 auto'}}>
+            <h2>This is Child component B</h2>
                 <GrandChildC />
                 <GrandChildD />
-        </>
+        </div>
     )
 }
 
